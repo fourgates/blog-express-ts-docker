@@ -1,6 +1,6 @@
 x-config:
-  - &EXPRESS_BUILDER "expressjs-demo"
-  - &CONTAINER_NAME "express-demo"
+  - &EXPRESS_BUILDER "express/builder:0.0.1"
+  - &CONTAINER_NAME "express-container"
 
 version: '3.7'
 
